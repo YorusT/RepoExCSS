@@ -1,0 +1,17 @@
+.expandable::after {
+    content: "after";
+    color: #ff8888;
+}
+.expandable:active {
+    content: "before";
+    color: #88ff88;
+}
+p::after {
+    content: "mostra";
+}
+p::before {
+    content: "nasconde";
+}
+button:focus{
+    display: none;
+}
