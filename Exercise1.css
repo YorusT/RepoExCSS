@@ -1,0 +1,18 @@
+:root {
+    --belblu:#486472;
+    --nicewidth: 50px;
+    --niceheight: 100px;
+    --backballground: #ea899a;
+    --betterborder: 40px;
+}
+
+body {
+    background-color: var(--belblu);
+}
+
+.ball {
+    width: var(--nicewidth);
+    height: var(--niceheight);
+    background-color:var(--backballground) ;
+    border-radius:var(--betterborder);
+}
