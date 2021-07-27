@@ -6,12 +6,18 @@
     content: "before";
     color: #88ff88;
 }
-p::after {
-    content: "mostra";
+
+button:active{
+    .bb {
+        display: table;
+    }
+    
 }
-p::before {
-    content: "nasconde";
-}
-button:focus{
+
+.bb{
     display: none;
+}
+
+.bb:hover {
+    display: block;
 }
