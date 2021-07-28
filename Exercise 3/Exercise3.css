@@ -1,3 +1,6 @@
+body {
+    height: 100vh;
+}
 aside {
     background-color: chartreuse;
     display: flex;
@@ -6,7 +9,7 @@ aside {
     justify-content:space-between ;
     flex-wrap: ;
     width: 200px;
-    height: 1285px;
+    height: 100%;
 }
 
 
