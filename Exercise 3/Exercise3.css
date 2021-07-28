@@ -3,10 +3,36 @@ aside {
     display: flex;
     flex-direction: column;
     align-items: center ;
-    justify-content: ;
+    justify-content:space-between ;
     flex-wrap: ;
     width: 200px;
-    height: 1000px;
+    height: 1285px;
+}
+
+
+#logo {
+    display: flex;
+    padding:30px;
+    width: 100px;
+    height: ;
+}
+
+a {
+    color: #2b2b2b;
+    text-decoration: none;
+    display: flex;
+    align-self: flex-start; 
+}
+a:hover {
+    color: #2b2bb2;
+    transition-delay: 0.3s;
+}
+ul {
+    list-style: none;
+}
+
+li {
+   padding: 10px;
 }
 
 #avatar {
@@ -16,38 +42,8 @@ aside {
     width: 190px;
     height: auto;
 }
-#logo {
+
+p {
     display: flex;
-    flex-direction: ;
-    padding:30px;
-    justify-content:;
-    align-items: ;
-    width: 100px;
-    height: ;
-}
-
-a {
-    text-decoration: none;
-    display: flex;
-    flex-direction:;
-    align-self: flex-start;
-    justify-content: ;
-}
-
-#avatar {
-    background-color: coral;
-    display: flex;
-    flex-direction: column;
-    height:;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
-ul {
-    flex: ;
-    list-style: none;
-}
-
-li {
-   padding: 10px;
+    justify-content: center;
 }
