@@ -1,0 +1,51 @@
+#mega {
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(253, 253, 253);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+#zero {
+    color: white;
+    padding-top: 10px;
+    background-color: rgb(83, 83, 83);
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    border: 1px solid gray;
+    grid-column:1/6;
+    text-align: right;
+    padding-right: 10px;
+}
+
+#uguale {
+    background-color: rgb(243, 137, 137);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: px;
+    grid-column: 4/6;
+    grid-row: 3/ span 6;
+    border-bottom-right-radius:10px ;
+}
+
+.normal { 
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid gray;   
+}
+
+#ziro {
+    border-bottom-left-radius: 10px;
+}
+
+#simboli {
+    background-color: rgb(233, 238, 241);
+}
