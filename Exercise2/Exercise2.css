@@ -1,23 +1,39 @@
-.expandable::after {
-    content: "after";
-    color: #ff8888;
-}
-.expandable:active {
-    content: "before";
-    color: #88ff88;
+body {
+	font-family: monospace;
 }
 
-button:active{
-    .bb {
-        display: table;
-    }
-    
+#expand-toggle {
+	display: none;
 }
 
-.bb{
-    display: none;
+.expandable {
+	visibility: collapse;
+	background: gray;
+	color: white;
 }
 
-.bb:hover {
-    display: block;
+#expand-btn {
+	display: inline-block;
+	margin-top: 12px;
+	padding: 6px 12px;
+	background-color: #ff8888;
+	border: 1px solid;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+
+#expand-btn::before {
+	content: "Mostra righe";
+}
+
+#expand-toggle:checked ~ * .expandable {
+	visibility: visible;
+}
+
+#expand-toggle:checked ~ #expand-btn {
+	background-color: #88ff88;
+}
+
+#expand-toggle:checked ~ #expand-btn::before {
+	content: "Nascondi righe";
 }
